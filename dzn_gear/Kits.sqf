@@ -109,7 +109,7 @@ kit_us_ftl = [
 	["<BACKPACK ITEMS >> ",[]]
 ];
 
-kit_us_ar = [
+kit_us_mg = [
 	["<EQUIPEMENT >>  ",us_u,"usm_vest_LBE_mg","CUP_B_AlicePack_OD",us_h,""],
 	["<PRIMARY WEAPON >>  ","CUP_lmg_M60","CUP_100Rnd_TE4_LRT4_Green_Tracer_762x51_Belt_M",["","","",""]],
 	["<LAUNCHER WEAPON >>  ","","",["","","",""]],
@@ -139,7 +139,62 @@ kit_us_r = [
 	["<ASSIGNED ITEMS >>  ", ASSIGNED_ITEMS],
 	["<UNIFORM ITEMS >> ",[UNIFORM_ITEMS]],
 	["<VEST ITEMS >> ",[["CUP_HandGrenade_M67",2],["CUP_7Rnd_45ACP_1911",1],["PRIMARY MAG",10]]],
-	["<BACKPACK ITEMS >> ",[["CUP_100Rnd_TE4_LRT4_Green_Tracer_762x51_Belt_M",2]]]
+	["<BACKPACK ITEMS >> ",[]]
+];
+
+kit_us_mm = [
+	["<EQUIPEMENT >>  ",us_u,"usm_vest_LBE_rm","CUP_B_AlicePack_OD",us_h,""],
+	["<PRIMARY WEAPON >>  ","CUP_srifle_M21","CUP_20Rnd_762x51_DMR",["","","CUP_optic_artel_m14",""]],
+	["<LAUNCHER WEAPON >>  ","rhs_weap_m72a7","",["","","",""]],
+	["<HANDGUN WEAPON >>  ","CUP_hgun_Colt1911","rhsusf_mag_7x45acp_MHP",["","","",""]],
+	["<ASSIGNED ITEMS >>  ", ASSIGNED_ITEMS],
+	["<UNIFORM ITEMS >> ",[UNIFORM_ITEMS]],
+	["<VEST ITEMS >> ",[["CUP_HandGrenade_M67",2],["CUP_7Rnd_45ACP_1911",1],["PRIMARY MAG",8]]],
+	["<BACKPACK ITEMS >> ",[]]
+];
+
+kit_us_ab = [
+	["<EQUIPEMENT >>  ",us_u,"usm_vest_LBE_rm","CUP_B_AlicePack_OD",us_h,""],
+	["<PRIMARY WEAPON >>  ","CUP_arifle_M16A1","CUP_20Rnd_556x45_Stanag",["","","",""]],
+	["<LAUNCHER WEAPON >>  ","rhs_weap_m72a7","",["","","",""]],
+	["<HANDGUN WEAPON >>  ","CUP_hgun_Colt1911","rhsusf_mag_7x45acp_MHP",["","","",""]],
+	["<ASSIGNED ITEMS >>  ", ASSIGNED_ITEMS],
+	["<UNIFORM ITEMS >> ",[UNIFORM_ITEMS]],
+	["<VEST ITEMS >> ",[["CUP_HandGrenade_M67",2],["CUP_7Rnd_45ACP_1911",1],["PRIMARY MAG",10]]],
+	["<BACKPACK ITEMS >> ",[["PRIMARY MAG",20],["CUP_20Rnd_762x51_DMR",6],["CUP_1Rnd_HE_M203",10]]]
+];
+
+kit_us_MGTL = [
+	["<EQUIPEMENT >>  ",us_u,"usm_vest_LBE_rm","CUP_B_AlicePack_OD",us_h,""],
+	["<PRIMARY WEAPON >>  ","CUP_arifle_M16A1","CUP_20Rnd_556x45_Stanag",["","","",""]],
+	["<LAUNCHER WEAPON >>  ","","",["","","",""]],
+	["<HANDGUN WEAPON >>  ","CUP_hgun_Colt1911","rhsusf_mag_7x45acp_MHP",["","","",""]],
+	["<ASSIGNED ITEMS >>  ", ASSIGNED_ITEMS_L],
+	["<UNIFORM ITEMS >> ",[UNIFORM_ITEMS_L]],
+	["<VEST ITEMS >> ",[["CUP_HandGrenade_M67",2],["CUP_7Rnd_45ACP_1911",1],["PRIMARY MAG",10]]],
+	["<BACKPACK ITEMS >> ",[["CUP_100Rnd_TE4_LRT4_Green_Tracer_762x51_Belt_M",3]]]
+];
+
+kit_us_asmg = [
+	["<EQUIPEMENT >>  ",us_u,"usm_vest_LBE_rm","CUP_B_AlicePack_OD",us_h,""],
+	["<PRIMARY WEAPON >>  ","CUP_arifle_M16A1","CUP_20Rnd_556x45_Stanag",["","","",""]],
+	["<LAUNCHER WEAPON >>  ","dzn_MG_Tripod_M122A1_M60Mount_Carry","",["","","",""]],
+	["<HANDGUN WEAPON >>  ","CUP_hgun_Colt1911","rhsusf_mag_7x45acp_MHP",["","","",""]],
+	["<ASSIGNED ITEMS >>  ", ASSIGNED_ITEMS],
+	["<UNIFORM ITEMS >> ",[UNIFORM_ITEMS]],
+	["<VEST ITEMS >> ",[["CUP_HandGrenade_M67",2],["CUP_7Rnd_45ACP_1911",1],["PRIMARY MAG",10]]],
+	["<BACKPACK ITEMS >> ",[["CUP_100Rnd_TE4_LRT4_Green_Tracer_762x51_Belt_M",3]]]
+];
+
+kit_us_medic = [
+	["<EQUIPEMENT >>  ",us_u,"usm_vest_LBE_rm","CUP_B_AlicePack_OD",us_h,""],
+	["<PRIMARY WEAPON >>  ","CUP_arifle_M16A1","CUP_20Rnd_556x45_Stanag",["","","",""]],
+	["<LAUNCHER WEAPON >>  ","dzn_MG_Tripod_M122A1_M60Mount_Carry","",["","","",""]],
+	["<HANDGUN WEAPON >>  ","CUP_hgun_Colt1911","rhsusf_mag_7x45acp_MHP",["","","",""]],
+	["<ASSIGNED ITEMS >>  ", ASSIGNED_ITEMS],
+	["<UNIFORM ITEMS >> ",[UNIFORM_ITEMS]],
+	["<VEST ITEMS >> ",[["CUP_HandGrenade_M67",2],["CUP_7Rnd_45ACP_1911",1],["PRIMARY MAG",10]]],
+	["<BACKPACK ITEMS >> ",[["ACE_personalAidKit",4],["ACE_surgicalKit",1],["ACE_elasticBandage",20],["ACE_fieldDressing",20],["ACE_packingBandage",10],["ACE_quikclot",20],["ACE_morphine",5],["ACE_epinephrine",5],["ACE_tourniquet",10]]]
 ];
 
 kit_us_crew = [

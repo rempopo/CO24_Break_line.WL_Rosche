@@ -50,19 +50,19 @@ tSF_MissionCondition_DefaultCheckTimer 			= 15;
 // Код условия может быть строкой или кодом в { }
 MissionCondition1 = [ "WIN1",{ 
         [ TRG1, "east", "", "< 3"] call dzn_fnc_ccUnits
-		&& alive ART1
+		&& (alive ART1 && alive ART2)
 		&& {call fnc_CheckPlayersReturned}
 },"City capture" ];
 
 MissionCondition2 = [ "WIN2",{ 
         [ TRG1, "east", "", "< 3"] call dzn_fnc_ccUnits
-		&& !alive ART1
+		&& (!alive ART1 && !alive ART2)
 		&& {call fnc_CheckPlayersReturned}
 },"all obj. done" ];
 
 MissionCondition3 = [ "WIN3",{ 
         [ TRG1, "east", "", "> 3"] call dzn_fnc_ccUnits
-		&& !alive ART1
+		&& (!alive ART1 && !alive ART2)
 		&& {call fnc_CheckPlayersReturned}
 },"only art destroed" ];
 

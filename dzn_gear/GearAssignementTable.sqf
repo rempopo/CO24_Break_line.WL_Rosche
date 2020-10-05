@@ -9,15 +9,22 @@
 
 
 
+
 A "1'1 Squad Leader@1'1"			TO "kit_us_sl" KIT
 , A "RED - FTL"				TO "kit_us_ftl" KIT
-, A "Automatic Rifleman"			TO "kit_us_ar" KIT
-, A "Grenadier"				TO "kit_us_gr" KIT
 , A "Rifleman"				TO "kit_us_r" KIT
+, A "Grenadier"				TO "kit_us_gr" KIT
+, A "Ammunition bearer"			TO "kit_us_ab" KIT
 , A "BLUE - FTL"				TO "kit_us_ftl" KIT
+, A "Marksman"				TO "kit_us_mm" KIT
 , A "1'2 Squad Leader@1'2"			TO "kit_us_sl" KIT
-, A "1,3 Crew Commander@1,3"			TO "kit_us_crew" KIT
+, A "RED - MG Team Leader"			TO "kit_us_MGTL" KIT
+, A "Machinegunner"				TO "kit_us_mg" KIT
+, A "Asst. Machinegunner"			TO "kit_us_asmg" KIT
+, A "BLUE - MG Team Leader"			TO "kit_us_MGTL" KIT
+, A "1'3 Crew Commander@1'3"			TO "kit_us_crew" KIT
 , A "Crew Driver"				TO "kit_us_crew" KIT
-, A "1,4 Crew Commander@1,4"			TO "kit_us_crew" KIT
+, A "1'4 Crew Commander@1'4"			TO "kit_us_crew" KIT
 , A "1'6 Platoon Leader@1'6"			TO "kit_US_pl" KIT
 , A "Platoon Sergeant"			TO "kit_us_sl" KIT
+, A "Medic"					TO "kit_us_medic" KIT
