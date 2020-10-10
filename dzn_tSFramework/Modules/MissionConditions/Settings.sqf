@@ -50,7 +50,7 @@ tSF_MissionCondition_DefaultCheckTimer 			= 15;
 // Код условия может быть строкой или кодом в { }
 MissionCondition1 = [ "WIN1",{ 
         [ TRG1, "east", "", "< 3"] call dzn_fnc_ccUnits
-		&& (alive ART1 && alive ART2)
+		&& (alive ART1 || alive ART2)
 		&& {call fnc_CheckPlayersReturned}
 },"City capture" ];
 
